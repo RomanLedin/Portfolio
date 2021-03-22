@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face { 
+    font-family: "AvenirLightOblique";
+    src: url("../fonts/AvenirLightOblique.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin:0px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    pointer-events: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+.header__navButton {
+    margin-right: 75px;
+    padding-right: 40px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 40px;
+    padding-left: 60px;
+
+}
+
+.header__logo {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.header__navSecond {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 200px;  
+}
+
+.header__navItem_noMargin {
+    font-size: 20px;
+    font-family: "AvenirLightOblique", serif;
+    font-weight: 800;
+}
+
+.header__navItem {
+    margin-right:30px;
+    font-size: 20px;
+    font-family: "AvenirLightOblique", serif;
+    font-weight: 800;
+} 
+
+.header__navItemSecond {
+    margin-right: 30px;
+    font-size: 20px;  
+    font-family: "AvenirLightOblique", serif;
+    font-weight: 800;
+}
+
+.header__navItem_color {
+    color: #C08D5D;
+}
+
+.mainInfo {
+ /*   margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #faebd7;
+*/
+    display: flex;
+    flex-direction: column;
+}
+
+.mainInfo__container {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #faebd7;
+    padding-top: 22px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 22px;
+}
+
+.mainInfo__title {
+    display: flex;
+    align-items: left;
+}
+
+.mainInfo__titleText {
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-right: 10px;
+    font-family: 'Playfair Display', serif;
+    color: #3F4042;
+}
+
+.mainInfo__titleText_larger {
+    margin-top: 0px;
+    font-size:70px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    color:  #3F4042;
+}
+
+.waveLine {
+    size: 20%;
+}
+
+.mainInfo__text {
+    font-size: 18px;
+    width: 400px;
+    text-align: justify;
+    font-family: "AvenirLightOblique", serif;
+}
+
+.mainInfo__text_indient {
+    text-indent: 30px;
+    width: 450px;
+}
+
+.mainInfo__button{
+    display: flex;
+    background-color: #C08D5D;
+    border: #C08D5D solid 2px;
+    padding: 0;
+    Box-shadow:2px 2px 2px 2px #00000070;
+}
+
+.mainInfo__buttonArrow{
+    padding-top: 12px;
+}
+
+.mainInfo__buttonText {
+    border: #C08D5D solid 2px;
+    padding: 5px;
+    background-color: #FFFAF3;
+    font-family: "AvenirLightOblique", serif;
+}
+
+.mainInfo__bottomDecor {
+    margin-left: 50%;
+}
+
+.background {
+    position: absolute;
+    left:650px;
+    top: -30px;
+}
+
+.background__image {
+    float: right;
+    width: 80%;
+    height: 70%;
+}
+
+.boxAbout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+ 
+.boxAbout__gardener {
+    border: #faebd7 solid 3px;
+    border-radius: 33px;
+    height: 70%;
+    width: 50%;
+    Box-shadow:2px 2px 2px 2px #C08D5D;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.footer__social-img {
+    width: 1.5vw;
+    margin-left: 1vw;
+}
